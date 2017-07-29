@@ -1,0 +1,41 @@
+
+{"buttons":[
+  {
+      "name": "Wemo light",
+      "address": "FC:A6:67:D0:99:C2",
+      "timeout": "3000",
+      "protocol": "udp",
+      "url": "http://192.168.0.102:8123/api/services/Switch/toggle",
+      "method": "POST",
+      "headers": {"x-ha-access": "****"},
+      "json": true,
+      "body": {"entity_id": "switch.Office_light"}
+  },
+
+  {
+      "name": "TV",
+      "address": "b4:7c:9c:e8:12:b2",
+      "timeout": "3000",
+      "protocol": "udp",
+      "url": "http://192.168.0.102:8123/api/services/Switch/toggle",
+      "method": "POST",
+      "headers": {"x-ha-access": "****"},
+      "json": true,
+      "body": {"entity_id": "switch.TV"}
+  },
+
+  {
+      "name": "night light",
+      "address": "68:37:E9:B6:41:42",//should be 42 in last one to use dash wand
+      "timeout": "3000",
+      "protocol": "udp",
+      "url": "http://192.168.0.102:8123/api/services/Switch/toggle",
+      "method": "POST",
+      "headers": {"x-ha-access": "****"},
+      "json": true,
+      "body": {"entity_id": "switch.Night_light"}
+  }
+
+
+]}
+
