@@ -26,7 +26,7 @@
 
   {
       "name": "night light",
-      "address": "68:37:E9:B6:41:42",//should be 42 in last one to use dash wand
+      "address": "68:37:E9:B6:41:42",
       "timeout": "3000",
       "protocol": "udp",
       "url": "http://192.168.0.102:8123/api/services/Switch/toggle",
